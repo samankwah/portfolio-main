@@ -8,7 +8,7 @@ const Projects = () => {
     <div className="container py-20 flex flex-col gap-10 mx-auto w-screen text-center">
       <SectionHeader
         title="Projects"
-        description="Don't just take my word for it. See my works for yourself!"
+        description="Here you will find some of the personal and clients projects that I created with each project containing its own case study"
       />
       <div className="space-y-4">
         {userDetails.projects.map((project, index) => {
@@ -39,7 +39,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className="border bg-blue-600 py-2 px-6 text-xl text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 hover:shadow-lg transition-colors duration-300"
                   >
-                    Website
+                    Case Study
                   </Link>
                 </div>
               </div>
