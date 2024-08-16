@@ -14,7 +14,7 @@ import { FaUserAltSlash } from "react-icons/fa"; // Importing a not found icon
 const PortfolioLayout = () => {
   const [loading, setLoading] = useState(false);
   const { userDetails, setUserDetails } = useUser(); // Use context
-  const { username } = useParams();
+  // const { username } = useParams();
 
   const fetchUserDetails = async () => {
     // setLoading(true);
@@ -48,7 +48,7 @@ const PortfolioLayout = () => {
 
   useEffect(() => {
     fetchUserDetails();
-  }, [username]); // Add username as a dependency
+  }, []); // Add username as a dependency
 
   return (
     <>
@@ -65,8 +65,7 @@ const PortfolioLayout = () => {
           <div className="text-center p-8 bg-white rounded-lg shadow-lg">
             <FaUserAltSlash className="text-6xl text-gray-500 mb-4" />
             <h1 className="text-2xl font-bold text-gray-800 mb-2">
-              Sorry, User <span className="text-blue-600">"{username}"</span>{" "}
-              not found!
+              Sorry, User <span className="text-blue-600"></span> not found!
             </h1>
             <p className="text-gray-600">
               The user you are looking for might have been removed or never

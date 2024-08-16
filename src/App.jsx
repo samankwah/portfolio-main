@@ -29,7 +29,7 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path: "/portfolio/:username",
+      path: "/",
       element: (
         <UserProvider>
           <PortfolioLayout />
