@@ -12,49 +12,42 @@ import { future } from "../pages/portfolio/data-placeholder";
 import { FaUserAltSlash } from "react-icons/fa"; // Importing a not found icon
 
 const PortfolioLayout = () => {
-  const [loading, setLoading] = useState(true); // Start with loading true
+  const [loading, setLoading] = useState(false);
   const { userDetails, setUserDetails } = useUser(); // Use context
   const { username } = useParams();
 
   const fetchUserDetails = async () => {
-    setLoading(true);
-    try {
-      const response = await apiGetUser(username);
-      if (response.status === 200) {
-        if (response.data.username === "supafuture") {
-          const profilePic = future.userProfile.profilePicture;
-          setUserDetails({
-            ...response.data,
-            projects: future.projects,
-            achievements: future.achievements,
-            education: future.education,
-            userProfile: {
-              ...response.data.userProfile,
-              profilePicture: profilePic,
-            },
-          });
-        } else {
-          setUserDetails(response.data);
-        }
-        console.log("Portfolio user details -->", response.data);
-      } else {
-        setUserDetails(null); // User not found, clear userDetails
-      }
-    } catch (error) {
-      console.error("Error fetching user details", error);
-      setUserDetails(null); // Error occurred, clear userDetails
-    } finally {
-      setLoading(false); // Loading is complete
-    }
+    // setLoading(true);
+    setUserDetails(future);
+    // try {
+    //   const response = await apiGetUser(username);
+    //   if (response.status === 200) {
+    //     if (response.data.username.username === "supafuture") {
+    //       const profilePic = future.userProfile.profilePicture;
+    //       setUserDetails({
+    //         ...response.data.username,
+    //         projects: future.projects,
+    //         achievements: future.achievements,
+    //         education: future.education,
+    //         userProfile: {
+    //           ...response.data.username.userProfile,
+    //           profilePicture: profilePic,
+    //         },
+    //       });
+    //     } else {
+    //       setUserDetails(response.data.username);
+    //     }
+    //     console.log("Portfolio user details-->", response.data.username);
+    //   }
+    // } catch (error) {
+    //   console.log("Error fetching user details", error);
+    // } finally {
+    //   setLoading(false);
+    // }
   };
 
   useEffect(() => {
-    if (username) {
-      fetchUserDetails();
-    } else {
-      setUserDetails(null);
-      setLoading(false); // Set loading to false if no username is provided
-    }
+    fetchUserDetails();
   }, [username]); // Add username as a dependency
 
   return (

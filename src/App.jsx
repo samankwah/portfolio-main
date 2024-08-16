@@ -2,7 +2,7 @@ import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import "react-toastify/dist/ReactToastify.css";
-
+import { future } from "./pages/portfolio/data-placeholder";
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import PortfolioLayout from "./layouts/portfolioLayout";
@@ -15,14 +15,14 @@ function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    const storedUser = localStorage.getItem("portiUser");
+    const storedUser = future;
     if (storedUser) {
-      const parsedUser = JSON.parse(storedUser);
-      setUser(parsedUser);
-      console.log("User---->", parsedUser);
+      // const parsedUser = JSON.parse(storedUser);
+      setUser(storedUser);
+      console.log("User---->", storedUser);
       dispatch({
         type: "LOGGED_IN_USER",
-        payload: parsedUser,
+        payload: storedUser,
       });
     }
   }, [dispatch]);
