@@ -224,7 +224,8 @@ export const future = {
     maritalStatus: "single",
     sex: "male",
     bio: "I'm the hottest web dev in africa at the moment",
-    about: "I'm the hottest web dev in africa at the moment",
+    about:
+      "A Result-Oriented Web Developer building and managing Websites and Web Applications that leads to the success of the overall product",
     contact: "0240298910",
     resume: "secure/uploads/15218",
     githubLink: "https://github.com/samankwah",
