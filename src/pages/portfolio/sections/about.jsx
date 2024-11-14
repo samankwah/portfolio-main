@@ -221,10 +221,8 @@ const About = () => {
           Download Resume
         </button> */}
         <a
-          href="/public/stephen-amankwah-resume.pdf"
+          href="/stephen-amankwah-resume.pdf"
           download="Stephen_Amankwah_CV.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
           className="border w-3/4 md:w-1/4 lg:w-1/6 mx-auto bg-blue-600 p-4 px-4 text-lg md:text-xl text-white font-bold shadow-sm rounded-xl hover:bg-blue-700 hover:shadow-lg transition-all duration-300"
         >
           Download Resume
