@@ -3,7 +3,7 @@ import "./portfolio.css";
 
 import Hero from "./sections/hero";
 import About from "./sections/about";
-import Skills from "./sections/skills";
+
 import Projects from "./sections/projects";
 import Education from "./sections/education";
 import Experience from "./sections/experience";

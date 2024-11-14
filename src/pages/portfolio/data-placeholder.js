@@ -71,7 +71,14 @@ export const future = {
       id: "669eedb0940cc069e23c9321",
     },
     {
-      name: "React",
+      name: "ReactJS",
+      levelOfProficiency: "Expert",
+      createdAt: "2024-07-26T18:16:49.877Z",
+      updatedAt: "2024-07-26T18:16:49.877Z",
+      id: "66a3e811205c5257ef1dbef0",
+    },
+    {
+      name: "TailwindCSS",
       levelOfProficiency: "Expert",
       createdAt: "2024-07-26T18:16:49.877Z",
       updatedAt: "2024-07-26T18:16:49.877Z",
@@ -126,7 +133,7 @@ export const future = {
     {
       award: "Hackathon Winner",
       description:
-        "Won first place in the annual university hackathon by leading a team to develop a mobile application for community health monitoring.",
+        "Won first place in the annual demo hackathon by leading a team to develop a mobile application for community health monitoring.",
       // image: "path/to/hackathon-award.png",
       date: "September 2018",
       nameOfInstitution: "Kwame Nkrumah University of Science & Technology",

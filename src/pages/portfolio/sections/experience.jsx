@@ -8,7 +8,7 @@ const Experience = () => {
 
   return (
     <div className="container py-20 flex flex-col gap-10 mx-auto w-screen text-center">
-      <SectionHeader title="Work Experience" />
+      <SectionHeader title="WORK EXPERIENCE" />
       <div className="relative md:w-1/2 mx-auto">
         <div className="space-y-12">
           {experience.map((exp, index) => (

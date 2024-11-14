@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div className="container py-20 flex flex-col gap-10 mx-auto w-screen text-center">
       <SectionHeader
-        title="Projects"
+        title="PROJECTS"
         description="Here you will find some of the personal and clients projects that I created with each project containing its own case study"
       />
       <div className="space-y-4">

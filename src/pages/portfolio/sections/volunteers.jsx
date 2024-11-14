@@ -11,7 +11,7 @@ const Volunteers = () => {
 
   return (
     <div className="container py-20 flex flex-col gap-10 mx-auto w-screen text-center">
-      <SectionHeader title="Volunteering" />
+      <SectionHeader title="VOLUNTEERING" />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {volunteering.map((volunteer, index) => (
           <div

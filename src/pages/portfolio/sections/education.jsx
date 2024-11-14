@@ -12,7 +12,7 @@ const Education = () => {
       {/* <div className="container mx-auto px-4"> */}
       <div className="container py-20 flex flex-col gap-10 mx-auto w-screen text-center">
         <SectionHeader
-          title="Educational Background"
+          title="EDUCATIONAL BACKGROUND"
           // description="Don't just take my word for it. See my works for yourself!"
         />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">

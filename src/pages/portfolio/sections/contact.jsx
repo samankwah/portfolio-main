@@ -11,7 +11,7 @@ const Contact = () => {
     <div className="relative flex flex-col items-center justify-center w-full py-20">
       <div className="container flex flex-col gap-10 mx-auto w-full md:w-3/4 lg:w-1/2 text-center">
         <SectionHeader
-          title="Get In Touch!"
+          title="GET IN TOUCH!"
           description="Feel free to contact me by submitting the form below. I will get back to you as soon as possible."
         />
         <div className="w-full mx-auto">

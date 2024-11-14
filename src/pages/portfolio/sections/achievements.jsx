@@ -9,7 +9,7 @@ const Achievements = () => {
 
   return (
     <div className="container py-20 flex flex-col gap-10 mx-auto w-screen text-center">
-      <SectionHeader title="My Achievements" />
+      <SectionHeader title="MY ACHIEVEMENTS" />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {achievements.map((achievement, index) => (
           <div
