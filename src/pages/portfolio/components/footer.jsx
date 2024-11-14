@@ -32,7 +32,7 @@ const Footer = () => {
                 to={userDetails.userProfile.githubLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 rounded-full bg-gray-800 hover:bg-blue-600 transition duration-300"
+                className="p-3 rounded-full bg-gray-800 hover:bg-violet-600 transition duration-300"
               >
                 <FaGithub size={20} />
               </Link>
@@ -40,7 +40,7 @@ const Footer = () => {
                 to={userDetails.userProfile.linkedinLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 rounded-full bg-gray-800 hover:bg-blue-600 transition duration-300"
+                className="p-3 rounded-full bg-gray-800 hover:bg-violet-600 transition duration-300"
               >
                 <FaLinkedinIn size={20} />
               </Link>
@@ -48,7 +48,7 @@ const Footer = () => {
                 to={userDetails.userProfile.twitterLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 rounded-full bg-gray-800 hover:bg-blue-600 transition duration-300"
+                className="p-3 rounded-full bg-gray-800 hover:bg-violet-600 transition duration-300"
               >
                 <FaXTwitter size={20} />
               </Link>
