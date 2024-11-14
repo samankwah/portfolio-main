@@ -37,7 +37,7 @@ const Projects = () => {
                     to={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="border bg-blue-600 py-2 px-6 text-xl text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 hover:shadow-lg transition-colors duration-300"
+                    className="border bg-violet-600 py-2 px-6 text-xl text-white font-semibold rounded-lg shadow-md hover:bg-violet-700 hover:shadow-lg transition-colors duration-300"
                   >
                     Case Study
                   </Link>

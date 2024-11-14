@@ -25,7 +25,7 @@ const Achievements = () => {
                 />
               </div>
             )}
-            <h3 className="text-xl font-semibold text-blue-600 mb-2">
+            <h3 className="text-xl font-semibold text-violet-600 mb-2">
               {achievement.award}
             </h3>
             <p className="text-gray-700 mb-4">{achievement.description}</p>

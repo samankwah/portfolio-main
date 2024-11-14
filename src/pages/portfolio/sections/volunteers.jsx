@@ -21,7 +21,7 @@ const Volunteers = () => {
             <div className="mb-4">
               {defaultIcon} {/* Use a default icon for now */}
             </div>
-            <h3 className="text-xl font-semibold text-blue-600 mb-2">
+            <h3 className="text-xl font-semibold text-violet-600 mb-2">
               {volunteer.projectName}
             </h3>
             <h4 className="text-lg font-semibold text-gray-800 mb-1">

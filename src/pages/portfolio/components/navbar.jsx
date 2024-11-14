@@ -531,7 +531,7 @@ const Navbar = () => {
           <div className="flex items-center gap-4">
             <div
               onClick={openModal} // Open modal on click
-              className="cursor-pointer rounded-full bg-blue-600 p-1 
+              className="cursor-pointer rounded-full bg-[#7843E9] p-1 
                 h-12 w-12 sm:h-10 sm:w-10 md:h-12 md:w-12 lg:h-14 lg:w-14"
             >
               <img
@@ -542,7 +542,7 @@ const Navbar = () => {
             </div>
             <Link
               to="/"
-              className="font-bold text-xl text-gray-800 hover:text-blue-800"
+              className="font-bold text-xl text-gray-800 hover:text-violet-700"
             >
               {userDetails.firstname} {userDetails.lastname}
             </Link>
@@ -554,7 +554,7 @@ const Navbar = () => {
               <button
                 key={index}
                 onClick={() => handleScroll(link.to)}
-                className="text-sm font-semibold text-gray-700 hover:text-blue-600 transition-colors"
+                className="text-sm font-semibold text-gray-700 hover:text-violet-700 transition-colors"
                 aria-label={`Navigate to ${link.name}`}
               >
                 {link.name.toUpperCase()}
@@ -588,7 +588,7 @@ const Navbar = () => {
             <button
               key={index}
               onClick={() => handleScroll(link.to)}
-              className="text-lg font-semibold text-gray-700 hover:text-blue-600 transition-colors"
+              className="text-lg font-semibold text-gray-700 hover:text-violet-600 transition-colors"
               aria-label={`Navigate to ${link.name}`}
             >
               {link.name.toUpperCase()}
@@ -601,21 +601,21 @@ const Navbar = () => {
           <Link
             to={userDetails.userProfile.githubLink}
             aria-label="Github"
-            className="p-3 rounded-full hover:bg-blue-300 transition-colors"
+            className="p-3 rounded-full hover:bg-violet-300 transition-colors"
           >
             <FaGithub size={30} />
           </Link>
           <Link
             to={userDetails.userProfile.linkedinLink}
             aria-label="LinkedIn"
-            className="p-3 rounded-full hover:bg-blue-300 transition-colors"
+            className="p-3 rounded-full hover:bg-violet-300 transition-colors"
           >
             <FaLinkedinIn size={30} />
           </Link>
           <Link
             to={userDetails.userProfile.twitterLink}
             aria-label="Twitter"
-            className="p-3 rounded-full hover:bg-blue-300 transition-colors"
+            className="p-3 rounded-full hover:bg-violet-300 transition-colors"
           >
             <FaTwitter size={30} />
           </Link>

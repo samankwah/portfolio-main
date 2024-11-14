@@ -17,11 +17,11 @@ const Experience = () => {
               className="flex relative justify-between items-center w-full mx-auto"
             >
               <div className="md:w-2/3 mx-auto relative">
-                <div className="absolute left-0 transform -translate-x-1/2 w-1 bg-blue-600 h-full"></div>
+                <div className="absolute left-0 transform -translate-x-1/2 w-1 bg-violet-600 h-full"></div>
 
                 <div className="bg-white p-6 rounded-xl shadow-md">
                   <div className="flex items-center">
-                    <FaBriefcase className="text-blue-600 mr-4" size={24} />
+                    <FaBriefcase className="text-violet-600 mr-4" size={24} />
                     <h3 className="text-xl font-semibold text-gray-800">
                       {exp.role} at {exp.companyName}
                     </h3>

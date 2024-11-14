@@ -10,19 +10,19 @@ const Socials = ({ userDetails }) => {
       <div className="flex flex-col justify-center gap-4 items-center bg-white p-3 shadow-lg rounded-r-xl w-16">
         <Link
           to={userDetails.userProfile.githubLink}
-          className="p-3 rounded-lg hover:bg-blue-300"
+          className="p-3 rounded-lg hover:bg-violet-200"
         >
           <FaGithub size={30} />
         </Link>
         <Link
           to={userDetails.userProfile.linkedinLink}
-          className="p-3 rounded-lg hover:bg-blue-300"
+          className="p-3 rounded-lg hover:bg-violet-200"
         >
           <FaLinkedinIn size={30} />
         </Link>
         <Link
           to={userDetails.userProfile.twitterLink}
-          className="p-3 rounded-lg hover:bg-blue-300"
+          className="p-3 rounded-lg hover:bg-violet-200"
         >
           <FaXTwitter size={30} />
         </Link>

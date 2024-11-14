@@ -43,7 +43,10 @@ const Education = () => {
                   </div>
                   <p className="text-gray-600 mt-4">{edu.description}</p>
                   <div className="mt-4 flex items-center">
-                    <FaGraduationCap size={20} className="mr-2 text-blue-600" />
+                    <FaGraduationCap
+                      size={20}
+                      className="mr-2 text-violet-600"
+                    />
                     <span className="text-gray-800 font-semibold">
                       {edu.grade}
                     </span>

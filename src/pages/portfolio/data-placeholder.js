@@ -11,7 +11,7 @@ import faith from "../../assets/images/faith-high-school.webp";
 export const future = {
   firstname: "Stephen",
   lastname: "Amankwah",
-  username: "supafuture",
+  username: "stephen amankwah",
   email: "0269642201a@gmail.com",
   password: "$2b$12$lEDxYwgJG31WyxGK3USgXehPywhZBSyD9PEf1WfBYxlZUUsvDztZa",
   education: [

@@ -257,7 +257,7 @@ const ProfileForm = ({
         </label>
         <textarea
           id="bio"
-          value={formData.bio}
+          value={formData.about}
           onChange={handleChange}
           className={`${inputStyle} ${
             errors.bio ? "border-red-500" : "border-gray-300"
