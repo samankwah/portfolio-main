@@ -1,6 +1,7 @@
 import project1 from "../../assets/images/project 1.png";
 import project2 from "../../assets/images/project 2.png";
 import project4 from "../../assets/images/project 4.png";
+import project5 from "../../assets/images/project 5.png";
 import project6 from "../../assets/images/project 6.png";
 import ceo from "../../assets/images/ceo.jpg";
 import knust from "../../assets/images/knust.png";
@@ -142,28 +143,28 @@ export const future = {
 
   projects: [
     {
-      projectName: "Supa Lounge",
+      projectName: "AgroPulse",
       description:
-        "Design and developed a visually appealing website for a local retaurant. Included features such as a menu, online reservation system and contact form.",
+        "Created a website that provides real-time climate data and weather forecasts using integrated APIs. Built with ReactJS, Tailwind CSS and JavaScript, it features interactive maps and visualizations to make climate information accessible.",
       contribution:
         "Designed the NLP model, integrated it with a backend API, and deployed the solution on a cloud platform.",
       skills: "Express, Node.js, HTML, JavaScript, CSS",
-      link: "https://samankwah.github.io/Supa-Lounge/",
+      link: "https://agropulse.netlify.app/",
       image: project1,
-      nameOfInstitution: "Supa Lounge",
+      nameOfInstitution: "AgroPulse",
       startDate: "January 2019",
       endDate: "June 2019",
     },
     {
-      projectName: "BuildRight",
+      projectName: "PortiBuilder",
       description:
-        "Developed a responsive website to showcase the company's services, projects, and contact information.",
+        "Developed a customizable portfolio site to showcase users work. Key features include project galleries and a responsive design for all devices. Built with React, Tailwind CSS and Firebase for smooth user experience and data storage.",
       contribution:
         "Led the development team, implemented key features, and coordinated with construction professionals for testing.",
       skills: "ReactJS, Express, Node.js",
-      link: "https://samankwah.github.io/BuildRight/",
+      link: "https://portibuilder.netlify.app/",
       image: project2,
-      nameOfInstitution: "BuildRight",
+      nameOfInstitution: "PortiBuilder",
       startDate: "July 2018",
       endDate: "September 2018",
     },
@@ -177,6 +178,19 @@ export const future = {
       link: "https://tukioevents.netlify.app/",
       image: project4,
       nameOfInstitution: "Tukio Events",
+      startDate: "March 2020",
+      endDate: "August 2020",
+    },
+    {
+      projectName: "DonaTrak",
+      description:
+        "Built a site for users to track their charitable donations and set goals. Key focus areas were secure data management and a simple, clear interface. Technologies used include ReactJS, Tailwind CSS, JavaScript and a secure back-end database.",
+      contribution:
+        "Developed the backend infrastructure, managed the database, and implemented video streaming capabilities.",
+      skills: "Node.js, ReactJS,  MongoDB, Express",
+      link: "https://donatrak.netlify.app/",
+      image: project5,
+      nameOfInstitution: "DonaTrak",
       startDate: "March 2020",
       endDate: "August 2020",
     },

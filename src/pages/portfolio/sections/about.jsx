@@ -115,6 +115,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   const { userDetails } = useUser();
+  // eslint-disable-next-line no-unused-vars
   const handleScroll = () => {
     const element = document.getElementById("contact");
     if (element) {
@@ -212,14 +213,6 @@ const About = () => {
             </div>
           </div>
         </div>
-        {/* <button
-          onClick={() => {
-            window.open("/public/stephen amankwah - resume.pdf", "_blank");
-          }}
-          className="border w-3/4 md:w-1/4 lg:w-1/6 mx-auto bg-blue-600 p-4 px-8 text-lg md:text-xl text-white font-bold shadow-sm rounded-xl hover:bg-blue-700 hover:shadow-lg transition-all duration-300"
-        >
-          Download Resume
-        </button> */}
         <a
           href="/stephen-amankwah-resume.pdf"
           download="Stephen_Amankwah_CV.pdf"
