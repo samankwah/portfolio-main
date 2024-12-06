@@ -70,7 +70,7 @@ const Hero = () => {
       <div className="flex flex-col md:w-[50%] gap-8 items-center text-center">
         <h1 className="font-bold text-4xl md:text-6xl text-gray-900 leading-tight capitalize">
           Hello, I&apos;m
-          <span className="font-extrabold text-violet-700">
+          <span className="font-extrabold text-violt-700">
             {" "}
             {userDetails.firstname} {userDetails.lastname}
           </span>

@@ -14,7 +14,7 @@ const Projects = () => {
         {userDetails.projects.map((project, index) => {
           return (
             <div key={index} className="grid md:grid-cols-5 items-center">
-              <div className="col-span-3 flex justify-center  rounded-lg overflow-hidden  transform hover:scale-105 transition-transform duration-500 ease-in-out">
+              <div className="col-span-3 flex justify-center rounded-lg overflow-hidden  transform hover:scale-105 transition-transform duration-500 ease-in-out">
                 <img
                   className=" object-cover"
                   src={project.image}
@@ -37,9 +37,9 @@ const Projects = () => {
                     to={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="border bg-violet-600 py-2 px-6 text-xl text-white font-semibold rounded-lg shadow-md hover:bg-violet-700 hover:shadow-lg transition-colors duration-300"
+                    className="border bg-violet-600 py-2 px-6 text-base text-white font-semibold rounded-lg shadow-md hover:bg-violet-700 hover:shadow-lg transition-colors duration-300"
                   >
-                    Case Study
+                    CASE STUDY
                   </Link>
                 </div>
               </div>
