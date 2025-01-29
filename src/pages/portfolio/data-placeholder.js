@@ -22,9 +22,9 @@ export const future = {
         "A leading science and technology university in West Africa, known for its research and innovation.",
       program: "Bachelor of Science in Computer Science",
       image: knust,
-      grade: "Second Class Honors",
+      // grade: "Second Class Honors",
       startDate: "September 2015",
-      endDate: "June 2019",
+      endDate: "August 2026",
     },
     {
       schoolName: "Kumasi High School",
@@ -34,8 +34,8 @@ export const future = {
       program: "General Science",
       image: Kumasi,
       grade: "WASSCE Certificate",
-      startDate: "September 2012",
-      endDate: "June 2015",
+      startDate: "September 2008",
+      endDate: "June 2013",
     },
     {
       schoolName: "Faith High School",
@@ -45,8 +45,8 @@ export const future = {
       program: "Junior Secondary School",
       image: faith,
       grade: "BECE Certificate",
-      startDate: "September 2009",
-      endDate: "June 2012",
+      startDate: "September 2006",
+      endDate: "June 2008",
     },
   ],
   skills: [
@@ -120,7 +120,7 @@ export const future = {
       description:
         "Awarded for academic excellence by maintaining a GPA of 3.8 or higher for two consecutive semesters.",
       // image: "path/to/deans-list-certificate.png",
-      date: "June 2018",
+      date: "June 2024",
       nameOfInstitution: "Kwame Nkrumah University of Science & Technology",
     },
     {
@@ -128,7 +128,7 @@ export const future = {
       description:
         "Recognized as the best final year project in the Computer Science department for developing an AI-powered chatbot.",
       // image: "path/to/project-award.png",
-      date: "July 2019",
+      date: "July 2026",
       nameOfInstitution: "Kwame Nkrumah University of Science & Technology",
     },
     {
@@ -136,7 +136,7 @@ export const future = {
       description:
         "Won first place in the annual demo hackathon by leading a team to develop a mobile application for community health monitoring.",
       // image: "path/to/hackathon-award.png",
-      date: "September 2018",
+      date: "September 2024",
       nameOfInstitution: "Kwame Nkrumah University of Science & Technology",
     },
   ],
@@ -217,9 +217,26 @@ export const future = {
       startDate: "2024-07-05",
       endDate: "2024-08-11",
       role: "Crop Modeler",
-      responsibility: "Running crop simulation model",
+      responsibility:
+        "Running crop simulation models to predict yield outcomes based on climate and soil data, analyzing model outputs for accuracy, refining parameters to improve forecasts and collaborating with agronomists to provide actionable insights for farmers and policymakers.",
       location: "Accra",
       projectName: "Crop Yield Forecast",
+      createdAt: "2024-07-28T23:13:59.963Z",
+      updatedAt: "2024-07-28T23:13:59.963Z",
+      id: "66a6d0b7d972de20873df27a",
+    },
+    {
+      organisation: "FSRP",
+      description: "I'm very good at it",
+      skills:
+        "Crop Calender and Advisory, Crop modeling, Seasonal Forecasting, Web Development",
+      startDate: "2024-08-12",
+      endDate: "2024-08-11",
+      role: "Climate Data Analyst",
+      responsibility:
+        "Collect all meteorological data needed for the climate/weather cropping calendar and perform pilot analysis with past climate data (Agrometeorological Seasonal Outlook- 2020-2023) on the chosen crops and livestock the team will be working with.",
+      location: "Accra",
+      projectName: "Agro-Climatic Information Services",
       createdAt: "2024-07-28T23:13:59.963Z",
       updatedAt: "2024-07-28T23:13:59.963Z",
       id: "66a6d0b7d972de20873df27a",
