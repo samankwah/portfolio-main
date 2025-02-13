@@ -171,7 +171,7 @@ export const future = {
     {
       projectName: "Tukio",
       description:
-        "Created an online platform for events management, enabling users to experience culture like never before Created out of the drive and passion for African Entertainment.",
+        "Created an online platform for event management, enabling users to view and filter upcoming events based on various categories. Admins have the ability to add, edit, and delete event details as needed. This allows users to experience culture like never before, driven by a passion for African entertainment.",
       contribution:
         "Developed the backend infrastructure, managed the database, and implemented video streaming capabilities.",
       skills: "Node.js, MongoDB, Express",
@@ -195,9 +195,9 @@ export const future = {
       endDate: "August 2020",
     },
     {
-      projectName: "CookBook",
+      projectName: "PAGÈS",
       description:
-        "CookBook is the all-in-one recipe keeper & cooking app for iOS, Android & Web. Add & organise your recipes, plan your meals, create shopping lists and more!",
+        "PAGÈS is an AI chatbot that provides real-time responses to user questions. It can understand and clarify queries, making conversations more interactive and helpful. This project highlights my skills in AI development and chatbot integration.",
       contribution:
         "Designed the frontend, integrated a payment gateway, and optimized the site for performance and security.",
       skills: "React, Node.js, Stripe API",
