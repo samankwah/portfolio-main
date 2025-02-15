@@ -201,9 +201,9 @@ export const future = {
       contribution:
         "Designed the frontend, integrated a payment gateway, and optimized the site for performance and security.",
       skills: "React, Node.js, Stripe API",
-      link: "https://cookbookgh.netlify.app/",
+      link: "https://pages-client.netlify.app/",
       image: project6,
-      nameOfInstitution: "CookBook",
+      nameOfInstitution: "PAGÈS",
       startDate: "October 2019",
       endDate: "January 2020",
     },
